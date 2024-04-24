@@ -7,6 +7,15 @@ const Charts = () => {
     options: {
       chart: {
         id: "apexchart-example",
+        zoom: {
+          enabled: true,
+        },
+        toolbar: {
+          show: true,
+          tools: {
+            zoom: false,
+          },
+        },
       },
       xaxis: {
         categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],

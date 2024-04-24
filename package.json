@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.15",
@@ -16,10 +17,12 @@
     "@nextui-org/react": "^2.2.10",
     "apexcharts": "^3.48.0",
     "framer-motion": "^11.0.28",
+    "graphql": "^16.8.1",
     "lucide-react": "^0.367.0",
     "next": "14.1.4",
     "react": "^18",
     "react-apexcharts": "^1.4.1",
+    "react-datepicker": "^6.8.0",
     "react-dom": "^18"
   },
   "devDependencies": {

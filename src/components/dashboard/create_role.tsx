@@ -73,8 +73,8 @@ const Create_role = () => {
             <textarea
               name=""
               id=""
-              cols="30"
-              rows="10"
+              cols={30}
+              rows={10}
               className="w-[300px] border-2 border-slate-100 resize-none rounded-lg p-1 outline-none text-[12px] text-slate-700 relative"
               readOnly
             ></textarea>
